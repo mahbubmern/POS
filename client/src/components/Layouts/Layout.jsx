@@ -508,6 +508,24 @@ const Layout = () => {
                   </li>
                   <li className="submenu">
                     <a href="javascript:void(0);">
+                      <img src={purchase1} alt="img" />
+                      <span>Investors</span>
+                      <span className="menu-arrow" />
+                    </a>
+                    <ul>
+                      <li>
+                        <Link to="/investors">Investors List</Link>
+                      </li>
+                      <li>
+                        <Link to="/investors">Add Investor</Link>
+                      </li>
+                      <li>
+                        <Link to="/investors">Import Investor</Link>
+                      </li>
+                    </ul>
+                  </li>
+                  <li className="submenu">
+                    <a href="javascript:void(0);">
                       <img src={expense1} alt="img" />
                       <span>Expense</span>
                       <span className="menu-arrow" />

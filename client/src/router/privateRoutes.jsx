@@ -11,6 +11,7 @@ import Profile from "../pages/Dashboard/Profile/Profile";
 import TaskList from "../pages/Dashboard/TaskList/TaskList";
 import TodaysIncoming from "../pages/Dashboard/TodaysIncoming/TodaysIncoming";
 import FileManager from "../pages/Dashboard/FileManger/FileManager";
+import Investors from "../pages/Dashboard/Investors/Investors";
 
 export const privateRoutes = [
   {
@@ -22,6 +23,10 @@ export const privateRoutes = [
           {
             path: "/dashboard",
             element: <Dashboard />,
+          },
+          {
+            path: "/investors",
+            element: <Investors />,
           },
           {
             path: "/dashboard/department",
